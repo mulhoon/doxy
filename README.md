@@ -1,4 +1,4 @@
-# Doxy
+# doxy
 *Modern, mobile friendly web directories.*
 
 
