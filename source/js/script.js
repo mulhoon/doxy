@@ -1,4 +1,4 @@
-var dexy = (function(){
+var doxy = (function(){
 
 	var searchInput, searchText = [], allRows, index = -1, root = 1, activeArr = [];
 
@@ -217,4 +217,4 @@ var ie7 = /(MSIE\ [0-7]\.\d+)/.test(navigator.userAgent);
 	}
 })();
 
-window.onload = dexy.init;
+window.onload = doxy.init;
