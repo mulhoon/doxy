@@ -12,3 +12,5 @@
 IndexOptions FancyIndexing IgnoreCase FoldersFirst SuppressHTMLPreamble SuppressIcon
 HeaderName /doxy.html
 ```
+
+Make your own theme [here](ADVANCED.md)
