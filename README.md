@@ -9,7 +9,6 @@
 2. Add this to the end of your root *.htaccess*
 
 ```
-IndexOptions IgnoreCase FancyIndexing FoldersFirst VersionSort
-IndexOptions SuppressHTMLPreamble SuppressDescription SuppressIcon  
+IndexOptions FancyIndexing IgnoreCase FoldersFirst SuppressHTMLPreamble SuppressIcon
 HeaderName /doxy.html
 ```
