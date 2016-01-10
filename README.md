@@ -5,7 +5,7 @@
 <img src="doxy.png"/>
 
 ## Installation
-1. Copy *[doxy.html](dist/doxy.html)* to your server
+1. Copy *[doxy.html](https://raw.githubusercontent.com/mulhoon/doxy/master/dist/doxy.html)* to your server
 2. Add this to the end of your root *.htaccess*
 
 ```
