@@ -1,0 +1,42 @@
+*{
+	outline:0;
+	-webkit-tap-highlight-color: rgba(201, 224, 253, 0);
+}
+pre{
+	display: none;
+}
+
+table{
+	border-collapse: collapse;
+	table-layout: fixed;
+	width:100%;
+	font-size: 1em;
+	th{
+		text-align: left;
+	}
+	th:first-child{
+		width:60%;
+	}
+	th.last, td.last{
+		width:10%;
+		text-align: right;
+	}
+}
+
+.row{
+	display:table-row;
+	white-space:nowrap;
+	&.active{
+		background-color:#EEE;
+	}
+	.cell{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		&:last-child:not(:first-child){
+			text-align: right;
+		}
+	}
+}
+
+
